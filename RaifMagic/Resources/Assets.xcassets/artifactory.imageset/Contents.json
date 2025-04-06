@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "jfrog.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

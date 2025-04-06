@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D376832C3D2C20008F6758 /* RaifMagicCore in Frameworks */ = {isa = PBXBuildFile; productRef = 06D376822C3D2C20008F6758 /* RaifMagicCore */; };
+		953218A62C91A0EF00E15532 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 953218A52C91A0EF00E15532 /* README.md */; };
+		9540F4692D92BC49009F253F /* CodeStyler in Frameworks */ = {isa = PBXBuildFile; productRef = 9540F4682D92BC49009F253F /* CodeStyler */; };
+		954A44E32D647D6E0077C651 /* MagicDesign in Frameworks */ = {isa = PBXBuildFile; productRef = 954A44E22D647D6E0077C651 /* MagicDesign */; };
+		957CE9EE2D79AD22001B78F4 /* CodeOwners in Frameworks */ = {isa = PBXBuildFile; productRef = 957CE9ED2D79AD22001B78F4 /* CodeOwners */; };
+		957CE9F02D79AD22001B78F4 /* CodeOwnersSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 957CE9EF2D79AD22001B78F4 /* CodeOwnersSwiftUI */; };
+		957CECCA2D79B70C001B78F4 /* CommandExecutor in Frameworks */ = {isa = PBXBuildFile; productRef = 957CECC92D79B70C001B78F4 /* CommandExecutor */; };
+		959AF1292D63589700678604 /* CodeOwners in Frameworks */ = {isa = PBXBuildFile; productRef = 959AF1282D63589700678604 /* CodeOwners */; };
+		959AF1302D63697500678604 /* CodeOwners in Frameworks */ = {isa = PBXBuildFile; productRef = 959AF12F2D63697500678604 /* CodeOwners */; };
+		959AF1422D636E1300678604 /* MagicDesign in Frameworks */ = {isa = PBXBuildFile; productRef = 959AF1412D636E1300678604 /* MagicDesign */; };
+		959AF1452D636E2400678604 /* CodeOwners in Frameworks */ = {isa = PBXBuildFile; productRef = 959AF1442D636E2400678604 /* CodeOwners */; };
+		959AF1472D63863200678604 /* CodeOwnersSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 959AF1462D63863200678604 /* CodeOwnersSwiftUI */; };
+		959B5BAD2D649E0500EA606D /* CodeOwners in Frameworks */ = {isa = PBXBuildFile; productRef = 959B5BAC2D649E0500EA606D /* CodeOwners */; };
+		959B5BAF2D649E0500EA606D /* CodeOwnersSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 959B5BAE2D649E0500EA606D /* CodeOwnersSwiftUI */; };
+		959B5CBD2D64AFF800EA606D /* CommandExecutor in Frameworks */ = {isa = PBXBuildFile; productRef = 959B5CBC2D64AFF800EA606D /* CommandExecutor */; };
+		959EC6982D7997CF00A287D6 /* RaifMagicCore in Frameworks */ = {isa = PBXBuildFile; productRef = 959EC6972D7997CF00A287D6 /* RaifMagicCore */; };
+		959EC69B2D7997E000A287D6 /* MagicIntegration in Frameworks */ = {isa = PBXBuildFile; productRef = 959EC69A2D7997E000A287D6 /* MagicIntegration */; };
+		959EE9122DA52934001DCA8C /* CommandExecutor in Frameworks */ = {isa = PBXBuildFile; productRef = 959EE9112DA52934001DCA8C /* CommandExecutor */; };
+		959EE9152DA5294E001DCA8C /* MagicDesign in Frameworks */ = {isa = PBXBuildFile; productRef = 959EE9142DA5294E001DCA8C /* MagicDesign */; };
+		959EE9182DA52959001DCA8C /* RaifMagicCore in Frameworks */ = {isa = PBXBuildFile; productRef = 959EE9172DA52959001DCA8C /* RaifMagicCore */; };
+		959EE91B2DA5298B001DCA8C /* CodeOwners in Frameworks */ = {isa = PBXBuildFile; productRef = 959EE91A2DA5298B001DCA8C /* CodeOwners */; };
+		959EE91D2DA5298B001DCA8C /* CodeOwnersSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 959EE91C2DA5298B001DCA8C /* CodeOwnersSwiftUI */; };
+		959EE9202DA5299F001DCA8C /* CodeStyler in Frameworks */ = {isa = PBXBuildFile; productRef = 959EE91F2DA5299F001DCA8C /* CodeStyler */; };
+		959EE9222DA5299F001DCA8C /* CodeStylerSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 959EE9212DA5299F001DCA8C /* CodeStylerSwiftUI */; };
+		959EE9252DA5367A001DCA8C /* MagicIntegration in Frameworks */ = {isa = PBXBuildFile; productRef = 959EE9242DA5367A001DCA8C /* MagicIntegration */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		954CC4782C479A1500D2FB4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchDaemons;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06F8F27C2BFF910900F754E1 /* RaifMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaifMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953218A52C91A0EF00E15532 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		955114FF2D08691100141A35 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 06F8F27B2BFF910900F754E1 /* RaifMagic */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		955114A72D08691100141A35 /* RaifMagic */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (955114FF2D08691100141A35 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = RaifMagic; sourceTree = "<group>"; };
+		95B258AC2CEB4C2100292279 /* RaifMagicTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RaifMagicTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06F8F2792BFF910900F754E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959EC69B2D7997E000A287D6 /* MagicIntegration in Frameworks */,
+				959EE91D2DA5298B001DCA8C /* CodeOwnersSwiftUI in Frameworks */,
+				959AF1452D636E2400678604 /* CodeOwners in Frameworks */,
+				06D376832C3D2C20008F6758 /* RaifMagicCore in Frameworks */,
+				957CE9F02D79AD22001B78F4 /* CodeOwnersSwiftUI in Frameworks */,
+				959EE9152DA5294E001DCA8C /* MagicDesign in Frameworks */,
+				959B5BAF2D649E0500EA606D /* CodeOwnersSwiftUI in Frameworks */,
+				957CECCA2D79B70C001B78F4 /* CommandExecutor in Frameworks */,
+				954A44E32D647D6E0077C651 /* MagicDesign in Frameworks */,
+				959EE9122DA52934001DCA8C /* CommandExecutor in Frameworks */,
+				959EC6982D7997CF00A287D6 /* RaifMagicCore in Frameworks */,
+				9540F4692D92BC49009F253F /* CodeStyler in Frameworks */,
+				959AF1292D63589700678604 /* CodeOwners in Frameworks */,
+				959AF1472D63863200678604 /* CodeOwnersSwiftUI in Frameworks */,
+				959AF1422D636E1300678604 /* MagicDesign in Frameworks */,
+				959B5CBD2D64AFF800EA606D /* CommandExecutor in Frameworks */,
+				959AF1302D63697500678604 /* CodeOwners in Frameworks */,
+				959B5BAD2D649E0500EA606D /* CodeOwners in Frameworks */,
+				959EE9182DA52959001DCA8C /* RaifMagicCore in Frameworks */,
+				957CE9EE2D79AD22001B78F4 /* CodeOwners in Frameworks */,
+				959EE9202DA5299F001DCA8C /* CodeStyler in Frameworks */,
+				959EE9252DA5367A001DCA8C /* MagicIntegration in Frameworks */,
+				959EE91B2DA5298B001DCA8C /* CodeOwners in Frameworks */,
+				959EE9222DA5299F001DCA8C /* CodeStylerSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D376812C3D2C20008F6758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06F8F2732BFF910900F754E1 = {
+			isa = PBXGroup;
+			children = (
+				955114A72D08691100141A35 /* RaifMagic */,
+				95B258AC2CEB4C2100292279 /* RaifMagicTests */,
+				06F8F27D2BFF910900F754E1 /* Products */,
+				06D376812C3D2C20008F6758 /* Frameworks */,
+				953218A52C91A0EF00E15532 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		06F8F27D2BFF910900F754E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F8F27C2BFF910900F754E1 /* RaifMagic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06F8F27B2BFF910900F754E1 /* RaifMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F8F28B2BFF910B00F754E1 /* Build configuration list for PBXNativeTarget "RaifMagic" */;
+			buildPhases = (
+				06F8F2782BFF910900F754E1 /* Sources */,
+				06F8F2792BFF910900F754E1 /* Frameworks */,
+				06F8F27A2BFF910900F754E1 /* Resources */,
+				954CC4782C479A1500D2FB4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				955114A72D08691100141A35 /* RaifMagic */,
+			);
+			name = RaifMagic;
+			packageProductDependencies = (
+				06D376822C3D2C20008F6758 /* RaifMagicCore */,
+				959AF1282D63589700678604 /* CodeOwners */,
+				959AF12F2D63697500678604 /* CodeOwners */,
+				959AF1412D636E1300678604 /* MagicDesign */,
+				959AF1442D636E2400678604 /* CodeOwners */,
+				959AF1462D63863200678604 /* CodeOwnersSwiftUI */,
+				954A44E22D647D6E0077C651 /* MagicDesign */,
+				959B5BAC2D649E0500EA606D /* CodeOwners */,
+				959B5BAE2D649E0500EA606D /* CodeOwnersSwiftUI */,
+				959B5CBC2D64AFF800EA606D /* CommandExecutor */,
+				959EC6972D7997CF00A287D6 /* RaifMagicCore */,
+				959EC69A2D7997E000A287D6 /* MagicIntegration */,
+				957CE9ED2D79AD22001B78F4 /* CodeOwners */,
+				957CE9EF2D79AD22001B78F4 /* CodeOwnersSwiftUI */,
+				957CECC92D79B70C001B78F4 /* CommandExecutor */,
+				9540F4682D92BC49009F253F /* CodeStyler */,
+				959EE9112DA52934001DCA8C /* CommandExecutor */,
+				959EE9142DA5294E001DCA8C /* MagicDesign */,
+				959EE9172DA52959001DCA8C /* RaifMagicCore */,
+				959EE91A2DA5298B001DCA8C /* CodeOwners */,
+				959EE91C2DA5298B001DCA8C /* CodeOwnersSwiftUI */,
+				959EE91F2DA5299F001DCA8C /* CodeStyler */,
+				959EE9212DA5299F001DCA8C /* CodeStylerSwiftUI */,
+				959EE9242DA5367A001DCA8C /* MagicIntegration */,
+			);
+			productName = RaifMagic;
+			productReference = 06F8F27C2BFF910900F754E1 /* RaifMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06F8F2742BFF910900F754E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					06F8F27B2BFF910900F754E1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 06F8F2772BFF910900F754E1 /* Build configuration list for PBXProject "RaifMagic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06F8F2732BFF910900F754E1;
+			packageReferences = (
+				06D3767E2C3D2BF7008F6758 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				959EE9102DA52934001DCA8C /* XCRemoteSwiftPackageReference "CommandExecutor" */,
+				959EE9132DA5294E001DCA8C /* XCRemoteSwiftPackageReference "MagicDesign" */,
+				959EE9162DA52959001DCA8C /* XCRemoteSwiftPackageReference "raifmagiccore" */,
+				959EE9192DA5298B001DCA8C /* XCRemoteSwiftPackageReference "CodeOwners" */,
+				959EE91E2DA5299F001DCA8C /* XCRemoteSwiftPackageReference "CodeStyler" */,
+				959EE9232DA5367A001DCA8C /* XCRemoteSwiftPackageReference "magicIntegration" */,
+			);
+			productRefGroup = 06F8F27D2BFF910900F754E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F8F27B2BFF910900F754E1 /* RaifMagic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06F8F27A2BFF910900F754E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953218A62C91A0EF00E15532 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F8F2782BFF910900F754E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06F8F2892BFF910B00F754E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		06F8F28A2BFF910B00F754E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		06F8F28C2BFF910B00F754E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RaifMagic/RaifMagic.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 27;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RaifMagic/Preview Content\"";
+				DEVELOPMENT_TEAM = 34E923QGF6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaifMagic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RaifMagic;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15;
+				MARKETING_VERSION = 5.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.raiffeisen.ro.raifmagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		06F8F28D2BFF910B00F754E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = RaifMagic/RaifMagic.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 27;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"RaifMagic/Preview Content\"";
+				DEVELOPMENT_TEAM = 34E923QGF6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaifMagic/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RaifMagic;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15;
+				MARKETING_VERSION = 5.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.raiffeisen.ro.raifmagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F8F2772BFF910900F754E1 /* Build configuration list for PBXProject "RaifMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F8F2892BFF910B00F754E1 /* Debug */,
+				06F8F28A2BFF910B00F754E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F8F28B2BFF910B00F754E1 /* Build configuration list for PBXNativeTarget "RaifMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F8F28C2BFF910B00F754E1 /* Debug */,
+				06F8F28D2BFF910B00F754E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		06D3767E2C3D2BF7008F6758 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+		959EE9102DA52934001DCA8C /* XCRemoteSwiftPackageReference "CommandExecutor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raiffeisen-DGTL/CommandExecutor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		959EE9132DA5294E001DCA8C /* XCRemoteSwiftPackageReference "MagicDesign" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raiffeisen-DGTL/MagicDesign";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		959EE9162DA52959001DCA8C /* XCRemoteSwiftPackageReference "raifmagiccore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raiffeisen-DGTL/raifmagiccore";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		959EE9192DA5298B001DCA8C /* XCRemoteSwiftPackageReference "CodeOwners" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raiffeisen-DGTL/CodeOwners";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		959EE91E2DA5299F001DCA8C /* XCRemoteSwiftPackageReference "CodeStyler" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raiffeisen-DGTL/CodeStyler";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		959EE9232DA5367A001DCA8C /* XCRemoteSwiftPackageReference "magicIntegration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Raiffeisen-DGTL/magicIntegration";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		06D376822C3D2C20008F6758 /* RaifMagicCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RaifMagicCore;
+		};
+		9540F4682D92BC49009F253F /* CodeStyler */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeStyler;
+		};
+		954A44E22D647D6E0077C651 /* MagicDesign */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MagicDesign;
+		};
+		957CE9ED2D79AD22001B78F4 /* CodeOwners */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeOwners;
+		};
+		957CE9EF2D79AD22001B78F4 /* CodeOwnersSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeOwnersSwiftUI;
+		};
+		957CECC92D79B70C001B78F4 /* CommandExecutor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CommandExecutor;
+		};
+		959AF1282D63589700678604 /* CodeOwners */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeOwners;
+		};
+		959AF12F2D63697500678604 /* CodeOwners */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeOwners;
+		};
+		959AF1412D636E1300678604 /* MagicDesign */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MagicDesign;
+		};
+		959AF1442D636E2400678604 /* CodeOwners */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeOwners;
+		};
+		959AF1462D63863200678604 /* CodeOwnersSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeOwnersSwiftUI;
+		};
+		959B5BAC2D649E0500EA606D /* CodeOwners */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeOwners;
+		};
+		959B5BAE2D649E0500EA606D /* CodeOwnersSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeOwnersSwiftUI;
+		};
+		959B5CBC2D64AFF800EA606D /* CommandExecutor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CommandExecutor;
+		};
+		959EC6972D7997CF00A287D6 /* RaifMagicCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RaifMagicCore;
+		};
+		959EC69A2D7997E000A287D6 /* MagicIntegration */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MagicIntegration;
+		};
+		959EE9112DA52934001DCA8C /* CommandExecutor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 959EE9102DA52934001DCA8C /* XCRemoteSwiftPackageReference "CommandExecutor" */;
+			productName = CommandExecutor;
+		};
+		959EE9142DA5294E001DCA8C /* MagicDesign */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 959EE9132DA5294E001DCA8C /* XCRemoteSwiftPackageReference "MagicDesign" */;
+			productName = MagicDesign;
+		};
+		959EE9172DA52959001DCA8C /* RaifMagicCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 959EE9162DA52959001DCA8C /* XCRemoteSwiftPackageReference "raifmagiccore" */;
+			productName = RaifMagicCore;
+		};
+		959EE91A2DA5298B001DCA8C /* CodeOwners */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 959EE9192DA5298B001DCA8C /* XCRemoteSwiftPackageReference "CodeOwners" */;
+			productName = CodeOwners;
+		};
+		959EE91C2DA5298B001DCA8C /* CodeOwnersSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 959EE9192DA5298B001DCA8C /* XCRemoteSwiftPackageReference "CodeOwners" */;
+			productName = CodeOwnersSwiftUI;
+		};
+		959EE91F2DA5299F001DCA8C /* CodeStyler */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 959EE91E2DA5299F001DCA8C /* XCRemoteSwiftPackageReference "CodeStyler" */;
+			productName = CodeStyler;
+		};
+		959EE9212DA5299F001DCA8C /* CodeStylerSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 959EE91E2DA5299F001DCA8C /* XCRemoteSwiftPackageReference "CodeStyler" */;
+			productName = CodeStylerSwiftUI;
+		};
+		959EE9242DA5367A001DCA8C /* MagicIntegration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 959EE9232DA5367A001DCA8C /* XCRemoteSwiftPackageReference "magicIntegration" */;
+			productName = MagicIntegration;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 06F8F2742BFF910900F754E1 /* Project object */;
+}

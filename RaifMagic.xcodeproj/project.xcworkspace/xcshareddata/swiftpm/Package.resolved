@@ -1,0 +1,114 @@
+{
+  "originHash" : "b2874f8b90943833f426ec7bcb3d7d46c7cc205de15c7cc34c67cfe0ab221d1e",
+  "pins" : [
+    {
+      "identity" : "aexml",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tadija/AEXML.git",
+      "state" : {
+        "revision" : "db806756c989760b35108146381535aec231092b",
+        "version" : "4.7.0"
+      }
+    },
+    {
+      "identity" : "codeowners",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Raiffeisen-DGTL/CodeOwners",
+      "state" : {
+        "revision" : "1397f4757d39d43a3156f6e3ffbc4da5540c5754",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "codestyler",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Raiffeisen-DGTL/CodeStyler",
+      "state" : {
+        "revision" : "6a185699b8c0a31ab903b7aa64022f8d3ca21908",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "commandexecutor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Raiffeisen-DGTL/CommandExecutor.git",
+      "state" : {
+        "revision" : "fd6b73a37be7260e08ba60c8aba92bab5a9014f5",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "magicdesign",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Raiffeisen-DGTL/MagicDesign",
+      "state" : {
+        "revision" : "1aa0c9bcc643cf4d2fb6719420359eab2f55f9ba",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "magicintegration",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Raiffeisen-DGTL/magicIntegration",
+      "state" : {
+        "revision" : "645107d78fbf53245f3eb59d98b94811961b5d1c",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "pathkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylef/PathKit.git",
+      "state" : {
+        "revision" : "3bfd2737b700b9a36565a8c94f4ad2b050a5e574",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "raifmagiccore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Raiffeisen-DGTL/raifmagiccore.git",
+      "state" : {
+        "revision" : "1a56a9469d2db0ef4c069836588441777bbc70f5",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "spectre",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kylef/Spectre.git",
+      "state" : {
+        "revision" : "26cc5e9ae0947092c7139ef7ba612e34646086c7",
+        "version" : "0.10.1"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "0687f71944021d616d34d922343dcef086855920",
+        "version" : "600.0.1"
+      }
+    },
+    {
+      "identity" : "xcodeproj",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tuist/XcodeProj.git",
+      "state" : {
+        "revision" : "b1caa062d4aaab3e3d2bed5fe0ac5f8ce9bf84f4",
+        "version" : "8.27.7"
+      }
+    }
+  ],
+  "version" : 3
+}
